@@ -1,0 +1,31 @@
+.puppet {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  
+  top: 50px;
+  left: 600px;
+}
+
+
+
+.puppet li {
+  position: absolute;
+  list-style: none;
+/*   outline:1px solid red; */
+}
+
+/* position all the separate pieces */
+.scooter{bottom: 0;left: 0;}
+.kitty{top: 65px; left: 130px;}
+.head{top: 0; left: 80px;}
+.front{bottom: 12px; left:8px;}
+.back{bottom: 8px; right:30px;}
+
+/* adjust "anchor points" where needed SEE:https://css-tricks.com/almanac/properties/t/transform-origin/*/
+.head{transform-origin:120px 110px}
+.puppet{transform-origin:240px 280px}
+
+
+/* ground just for fun */
+footer{height: 200px;background-color: #FF9BAF;margin-top: 30px;}
