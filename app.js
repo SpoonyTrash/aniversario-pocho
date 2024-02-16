@@ -1,6 +1,6 @@
 import { clacularDiferenciaDesdeFecha } from "./fechaUtils.js"
 
-const palabras = ['meses', 'dias', 'horas']
+const palabras = ['meses', 'dias', 'horas', 'minutos', 'segundos']
 let indiceActual = 0
 
 

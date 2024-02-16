@@ -15,5 +15,9 @@
       return Math.floor(diferenciaMilisegundos / (1000 * 60 * 60 * 24))
     case 'horas':
       return Math.floor(diferenciaMilisegundos / (1000 * 60 * 60))
+    case 'minutos':
+      return Math.floor(diferenciaMilisegundos / (1000 * 60))
+    case 'segundos':
+      return Math.floor(diferenciaMilisegundos / 1000)
   }
 }
